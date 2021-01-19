@@ -61,8 +61,6 @@ const updateCache = async () => {
               item.instock = 'INFORMATIOM NOT AVAILABLE AT THIS TIME'
             }
           })
-          console.log(fetchedProductsData.data)
-          console.log(productsByCategory)
           productCache.set(productsByCategory, fetchedProductsData.data)
           resolve(true)
         } catch (errorInDataFetching) {
