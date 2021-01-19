@@ -1,0 +1,218 @@
+{
+  "productsData": {
+    "gloves": [
+      {
+        "id": 1,
+        "productName": "A",
+        "color": "red", 
+        "price": 20 , 
+        "manufacturer":"ABC", 
+        "availability": 11
+      },
+      {
+        "id": 2,
+        "productName":"B",
+        "color": "red",
+        "price": 10 ,
+        "manufacturer":"XYZ",
+        "availability": "33"
+      },
+      {
+        "id": 3,
+        "productName": "C",
+        "color": "blue",
+        "price": 15 ,
+        "manufacturer": "LLL",
+        "availability": "no"
+      },
+      {
+        "id": 4,
+        "productName": "D",
+        "color": "green",
+        "price": 25 ,
+        "manufacturer": "MMM",
+        "availability": 10
+      },
+      {
+        "id": 5,
+        "productName": "E",
+        "color": "red",
+        "price": 32 ,
+        "manufacturer": "KFH",
+        "availability": 44
+      },
+      {
+        "id": 6,
+        "productName": "F",
+        "color": "pink",
+        "price": 12 ,
+        "manufacturer": "GHO",
+        "availability": 0
+      },
+      {
+        "id": 7,
+        "productName": "G",
+        "color": "blue",
+        "price": 26 ,
+        "manufacturer": "KFH",
+        "availability": 21
+      },  
+      {
+        "id": 8,
+        "productName":"H",
+        "color": "red",
+        "price": 51 ,
+        "manufacturer": "PEA",
+        "availability": 54
+      },
+      {
+        "id": 9,
+        "productName": "I",
+        "color": "pink",
+        "price": 29,
+        "manufacturer": "ABC",
+        "availability": 61
+      },
+      {
+        "id": 10,
+        "productName": "J",
+        "color": "silver",
+        "price": 120 ,
+        "manufacturer": "FOP",
+        "availability": 21
+      }
+    ],
+    "facemasks": [
+      {
+        "id": 11,
+        "productName": "K",
+        "color": "pink",
+        "price": 85,
+        "manufacturer": "BBB",
+        "availability": 91
+      },
+      {
+        "id": 12,
+        "productName": "L",
+        "color": "yellow",
+        "price": 67 ,
+        "manufacturer": "MMM",
+        "availability": 48
+      },
+      {
+        "id": 13,
+        "productName": "M",
+        "color": "black",
+        "price": 86,
+        "manufacturer": "MMM",
+        "availability": 84
+      },
+      {
+        "id": 14,
+        "productName": "N",
+        "color": "black",
+        "price": 72 ,
+        "manufacturer": "XOI",
+        "availability": 54
+      },  
+      {
+        "id": 15,
+        "productName": "O",
+        "color": "gold",
+        "price": 15,
+        "manufacturer": "NEP",
+        "availability": 0
+      },
+      {
+        "id": 16,
+        "productName": "P",
+        "color": "green",
+        "price": 69,
+        "manufacturer": "XOI",
+        "availability": 74
+      }
+    ],
+    "beanies": [
+      {
+        "id": 17,
+        "productName": "Q",
+        "color": "yellow",
+        "price": 45,
+        "manufacturer": "LLL",
+        "availability": 101
+      },
+      {
+        "id": 18,
+        "productName": "R",
+        "color": "yellow",
+        "price": 39,
+        "manufacturer": "PEA",
+        "availability": 84
+      },
+      {
+        "id": 19,
+        "productName": "S",
+        "color": "pink",
+        "price": 105,
+        "manufacturer": "FEA",
+        "availability": 95
+      },
+      {
+        "id": 20,
+        "productName": "T",
+        "color": "gold",
+        "price": 89,
+        "manufacturer": "GHO",
+        "availability": 74
+      },
+      {
+        "id": 21,
+        "productName": "U",
+        "color": "silver",
+        "price": 51,
+        "manufacturer": "DFH",
+        "availability": 65
+      },
+      {
+        "id":22,
+        "productName": "V",
+        "color": "black",
+        "price": 125,
+        "manufacturer": "FEA",
+        "availability": 0
+      },
+      {
+        "id": 23,
+        "productName": "W",
+        "color": "blue",
+        "price": 22,
+        "manufacturer": "KFH",
+        "availability": 152
+      },  
+      {
+        "id": 24,
+        "productName": "X",
+        "color": "gold",
+        "price": 105,
+        "manufacturer": "MMM",
+        "availability": 41
+      },
+      {
+        "id": 25,
+        "productName": "Y",
+        "color": "yellow",
+        "price": 36,
+        "manufacturer": "XOI",
+        "availability": 0
+      },
+      {
+        "id": 26,
+        "productName": "Z",
+        "color": "silver",
+        "price": 76,
+        "manufacturer": "NEP",
+        "availability": 34
+      } 
+    ]
+  }  
+}
