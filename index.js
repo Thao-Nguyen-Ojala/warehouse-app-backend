@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 const axios = require('axios');
 const axiosRetry = require('axios-retry');
 const convert = require('xml-js');
@@ -94,8 +94,6 @@ productsCategory.map( async (productsByCategory) => {
   })
 })
 
-
-
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost: ${port}`)
+  console.log(`Example app listening at: ${port}`)
 });
