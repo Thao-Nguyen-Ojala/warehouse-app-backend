@@ -16,7 +16,11 @@ const manufacturerUrl = `${baseUrl}/v2/availability`
 const productsCategory = ['gloves', 'facemasks', 'beanies']
 let cacheIsUpdating = false;
 
-const updateCache = async () => {
+updateCache()
+setInterval(updateCache, 1000 * 60 * 4)
+
+async function updateCache() {
+  console.log('hello money')
   if (cacheIsUpdating) { return }
   cacheIsUpdating = true
 
