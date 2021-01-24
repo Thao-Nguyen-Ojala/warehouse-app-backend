@@ -21,7 +21,7 @@ function axiosGetRetry(url) {
     let maxTries = 10;
     let result;
     for (let i = 0; i < maxTries; i++) {
-      result = await axios.get(url, {timeout: 60 * 1000, headers: {'x-force-error-mode':'all'}})
+      result = await axios.get(url, {timeout: 60 * 1000/*, headers: {'x-force-error-mode':'all'}*/})
       if (didAxiosPromiseSucceed(result)) {
         resolve(result)
         return
